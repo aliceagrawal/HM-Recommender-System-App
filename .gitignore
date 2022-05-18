@@ -1,5 +1,5 @@
-Data files to be ignored
-/Users/Alice/Documents/Flatiron/Project_5/Project-5/Data
+# Data files to be ignored
+Data
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
