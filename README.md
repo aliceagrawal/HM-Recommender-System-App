@@ -84,12 +84,15 @@ For additional questions, feel free to [contact me](mailto:alice.agrawal30@gmail
 
 ## Respository Structure
 ```
-├── data                                <- Source data .csv files
-├── images                              <- Exported Notebook visualizations
-├── README.md                           <- Top-level README for reviewers of this project
-├── environment.yml                     <- Environment .yml file for reproducibility
-├── main_notebook.ipynb                 <- Technical and narrative documentation in Jupyter Notebook
-├── project_presentation.pdf            <- PDF version of project presentation
-├── requirements.txt                    <- Requirements .txt file for reproducibility
-└── spotify_authorization.py            <- Spotify authorization function to call in Main Notebook
+├── Data                                      <- Source data .csv files
+├── Images                                    <- Exported Notebook visualizations and images from the web
+├── Model                                     <- Pickled Models
+├── README.md                                 <- Top-level README for reviewers of this project
+├── environment.yml                           <- Environment .yml file for reproducibility
+├── EDA and Data Cleaning.ipynb               <- Technical and narrative documentation in Jupyter Notebook about the data
+├── FinalDataPreparation.ipynb                <- Technical and narrative documentation in Jupyter Notebook about the data preparation for modeling
+├── H&M-CollaborativeFilteringModeling.ipynb  <- Technical and narrative documentation in Jupyter Notebook about Collaborative filtering modeling
+├── H&M-ContentBasedFilteringModeling.ipynb   <- Technical and narrative documentation in Jupyter Notebook about content based filtering modeling
+├── project_presentation.pdf                  <- PDF version of project presentation
+└── requirements.txt                          <- Requirements .txt file for reproducibility
 ```
