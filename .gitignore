@@ -1,5 +1,5 @@
 # Data files to be ignored
-Data
+Data_Ignore
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
