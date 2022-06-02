@@ -1,5 +1,9 @@
 # Data files to be ignored
-Data_Ignore
+Data_Ignoree/
+Data/df_customer.csv
+Data/h-and-m-personalized-fashion-recommendations.zip
+Data/h-and-m-personalized-fashion-recommendations/
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
