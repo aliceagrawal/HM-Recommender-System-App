@@ -67,11 +67,9 @@ Collaborative filtering recommender systems have a drawback in that they can onl
 #### Collaborative Filtering:
 The CF system was based on customer transaction data to create 'user profiles' which could then be compared with one another. Similar users, based on prior transactions/purchases, were then used to return the top-recommended articles by predicting an estimated rating (estimated purchase between 0 and 1). This approach is known as user to user. I iterated through several model algorithms and grid searches before settling on my final model (tuned SVD). This model achieved my lowest Root Mean Squared Error, coming in at 0.0115 ratings (RMSE).
 
-Add image
-
 The CF system function takes in a Customer's unique Customer ID and returns n-recommendations based on their profile in comparison to other users. This is demonstrated below. As one can see the CF system returns a variety of articles and is based on prior purchased articles from the customers.
 
-Add image
+![CF_example](./Images/CF_example.png)
 
 For a more in-depth look at this process please see my Collaborative Filtering [notebook](https://github.com/aliceagrawal/HM-Recommender-System-App/blob/main/H%26M-CollaborativeFilteringModeling.ipynb).
 
@@ -80,6 +78,8 @@ The CB system was based on article description data for each article in the data
 
 After modeling, the created function takes in an article ID and n number of recommendations, provided by the customer and returns article recommendations. As expected from a CB system returned recommendations follow group divisions.
 
+![CB_example](./Images/CB_example.png)
+
 For a more in-depth look at this process please see my Content-Based [notebook](https://github.com/aliceagrawal/HM-Recommender-System-App/blob/main/H%26M-ContentBasedFilteringModeling.ipynb).
 
 ### App Development
@@ -87,7 +87,7 @@ To achieve real-world access to the two recommendation systems developed above I
 
 Deployment of the app was inhibited by the maximum memory that is allocated to free streamlit accounts. Given the inclusion of both recommender systems the developed app needs over 2GB of virtual memory to run. It can however be run locally by anyone who would like to fork and download this GitHub repository. Once downloaded the appropriate environment can be activated using the requirements.txt file and then the app can be run locally by utilizing streamlit. In a local terminal type 'streamlit run app.py', which will open the application within localhost. A demonstration video of the app can be seen below.
 
-Add a demonstration video of the app
+Link to the video demonstration : [https://www.youtube.com/watch?v=S2f9uEQmB-0](https://www.youtube.com/watch?v=S2f9uEQmB-0)
 
 The code for the app can be found [here](https://github.com/aliceagrawal/app.py).
 
